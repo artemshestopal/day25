@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,400i');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+body{
+	box-sizing: border-box;
+	font: 300 18px/1.8 Lato, serif;
+}
+.wc-container{
+	max-width: 1500px;
+	margin: 0 auto;
+	padding: 130px 50px;
+	color: #171717b5
+
+	}
+.wc-days{
+	padding: 113px 128px 120px 121px;
+	background-color: #FFF;
+	box-shadow: 0px 4px 68px 0px rgba(0, 0, 0, 0.1);
+
+}
+.wc-title{
+	 font:400 42px/1.8 'Playfair Display', serif;
+	 color: #171717;
+	 margin-bottom: 20px;
+}
+.wc-first:first-letter{
+	font:400 110px/0.8 'Playfair Display', serif;
+	float: left;
+	margin: 1px 34px 6px 1px;
+	color: #171717;
+}
+p{
+	margin: 0 0 40px;
+}
+.wc-quote p:before{
+	content: "“";
+	font-size:53px;
+	margin: 0 10px 0 1px;
+}
+.wc-quote {
+	font:oblique 400 24px/1.89 Lato, sans-serif;
+	/* font-style: ; */
+}
+.wc-button{
+	text-transform: uppercase;
+	text-decoration: none;
+	border: 2px solid #eaa258;
+	padding: 10px 40px 10px 40px;
+	color: #eaa258;
+	letter-spacing: 0.15em;
+}
+.wc-button:hover{
+	color: #fff	;
+	background: #000;
+	border-color: #000;
+}
